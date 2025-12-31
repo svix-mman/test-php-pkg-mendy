@@ -1,0 +1,20 @@
+{
+    "name": "svix-mman/test-php-pkg-mendy",
+    "description": "A simple hello mendy package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HelloMendy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
